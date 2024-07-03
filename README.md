@@ -3,12 +3,11 @@
 scripts, files related to my home lab or in the computer
 
 ## Table of Contents
-  
-  * [Zsh Customization](#zsh-customization)
+
+* [Zsh Customization](#zsh-customization)
 
 ### Zsh Customization
 
-  * scripts to customize the zshell
+* scripts to customize the zshell
 
-    * [Documentation](#url-for-the-readme-here)
-    > put the url
+  * [Documentation](https://github.com/mr-alham/My-Home-Lab/tree/main/Zsh)
