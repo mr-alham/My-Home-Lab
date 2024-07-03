@@ -2,29 +2,12 @@
 
 scripts, files related to my home lab or in the computer
 
-## Zsh Customization
+## Table of Contents
 
-* **The Github page for PowerLevel10k**
-  [PowerLevel10k](https://github.com/romkatv/powerlevel10k)
+* [Zsh Customization](#zsh-customization)
 
-* **Install Zsh**
+### Zsh Customization
 
-  ```sh
-  sudo dnf install zsh
-  ```
+* scripts to customize the zshell
 
-  > Choose your package manager according to your Operating System.
-
-* **Clone the PowerLevel10k & configure Zsh alongside autocompletion, syntax highlighting etc...**
-
-  ```sh
-  curl https://raw.githubusercontent.com/mr-alham/My-Home-Lab/main/install.sh
-  bash install.sh
-  
-  ```
-
-* **Download this directory from github and move into `~/.zsh/plugins/zsh-syntax-highlighting/` directory**
-  
-  ```
-  https://github.com/zsh-users/zsh-syntax-highlighting/tree/master/highlighters
-  ```
+  * [Documentation](https://github.com/mr-alham/My-Home-Lab/tree/main/Zsh)
