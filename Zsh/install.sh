@@ -35,6 +35,17 @@ echo -e "zsh-syntax-highlighting.plugin.zsh"
 #curl -Lo ${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh https://raw.githubusercontent.com/zsh-users/zsh-syntax-highlighting/master/zsh-syntax-highlighting.plugin.zsh
 curl -Lo "${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh" https://raw.githubusercontent.com/mr-alham/My-Home-Lab/main/Zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 
+
+echo -e "\nzsh-syntax-highlighting/highlighters/"
+git clone --filter=blob:none https://github.com/zsh-users/zsh-syntax-highlighting --sparse "${HOME}/.zsh/plugins/zsh-syntax-highlighting/"
+
+cd "${HOME}/.zsh/plugins/zsh-syntax-highlighting/"
+
+git config core.sparseCheckout true
+
+echo "/highlighters/*" > .git/info/sparse-checkout
+git sparse-checkout init
+
 # Auto-suggestions
 echo -e "\nzsh-autosuggestions.zsh"
 curl -Lo "${HOME}/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" https://raw.githubusercontent.com/zsh-users/zsh-autosuggestions/master/zsh-autosuggestions.zsh
